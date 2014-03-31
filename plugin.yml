@@ -1,0 +1,11 @@
+name: NoBlockPistonMove
+version: 1.0
+main: pl.AYuPro.nbpm.NBPM
+author: AYuPro
+description: Blocking Piston Move list of blocks.
+
+commands:
+    nbpmlist:
+        usage: /<command>
+        aliases: [npmlist, pistonmovelist]
+        description: ----
