@@ -30,7 +30,7 @@ public class NBPM  extends JavaPlugin implements Listener{
 	public boolean onCommand(CommandSender sender, Command cmd, String CommandLabel, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("nbpmlist")) {
 			if (!(sender.isOp())){
-				sender.sendMessage(ChatColor.RED + "У Вас не достаточно прав.");
+				sender.sendMessage(ChatColor.RED + "You don't have permission.");
 				return false;
 			} else {
 				sender.sendMessage(blist.toString());
